@@ -1,4 +1,4 @@
-const domain = 'u3.fusionpoweredsoftware.com';
+const domain = 'u3.domain.com';
 
 // Function to format the rate
 function formatRate(rate) {
