@@ -12,6 +12,7 @@ This project implements a joke counter system that tracks the number of jokes, c
 
 ### File Structure
 
+```
 ├── server
 │ └── joke-counter.js
 ├── html
@@ -20,6 +21,7 @@ This project implements a joke counter system that tracks the number of jokes, c
 │ └── script.js
 ├── domain.txt
 └── report-path.txt
+```
 
 ### Configuration
 
