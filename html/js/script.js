@@ -12,8 +12,8 @@ function updateDisplay(data) {
     const ipJokeCountText = data.ip_joke_count !== undefined ? ` (${data.ip_joke_count} confirmed locally)` : '';
     jokeButton.textContent = jokeCountText + ipJokeCountText;
 
-    document.getElementById('rateHour').textContent = `Joke rate: ${formatRate(data.rate_hour)} jokes/hour`;
-    document.getElementById('rateDay').textContent = `Joke rate: ${formatRate(data.rate_day)} jokes/day`;
+    document.getElementById('rateHour').textContent = `Currently estimated joke rate: ${formatRate(data.rate_hour)} jokes/hour`;
+    document.getElementById('rateDay').textContent = `Daily projected joke rate: ${formatRate(data.rate_day)} jokes/day`;
 }
 
 // Check if there's cached data in local storage and update the display
