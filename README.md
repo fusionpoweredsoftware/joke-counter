@@ -56,8 +56,9 @@ This project implements a joke counter system that tracks the number of jokes, c
     ```
 3. Start the server:
     ```sh
-    node server/joke-counter.js
+    node server/joke-counter.js <number of ips in your group>
     ```
+4. Have each person in your group hit the joke counter at least once, and then have at least two people hit reset when you're to begin.
 
 ### HTML and JavaScript Setup
 
