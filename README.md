@@ -34,11 +34,19 @@ This project implements a joke counter system that tracks the number of jokes, c
     ```
     /path/to/report
     ```
-3. **html/js/script.js**: Make sure you set the correct domain name here as well.
+3. **html/js/script.js**: If you're hosting the HTML website, make sure you set the correct domain name here as well.
     ```
     const domain = 'u3.domain.com';
     ```
-
+4. **server/joke-counter.js**: You may also need to set the CORS options:
+    ```
+    const corsOptions = {
+        origin: [
+            `https://${domain}`,
+            <list whatever domains you need here>
+        ]
+    };
+    ```
 ### Node.js Server Setup
 
 1. Create the `server` directory and add `joke-counter.js` with the server code.
