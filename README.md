@@ -34,6 +34,10 @@ This project implements a joke counter system that tracks the number of jokes, c
     ```
     /path/to/report
     ```
+3. **html/js/script.js**: Make sure you set the correct domain name here as well.
+    ```
+    const domain = 'u3.domain.com';
+    ```
 
 ### Node.js Server Setup
 
